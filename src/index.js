@@ -7,22 +7,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fetchBinanceRsiDataBtn = document.getElementById('fetchBinanceRsiDataBtn');
     if (fetchBinanceRsiDataBtn) {
-        fetchBinanceRsiDataBtn.addEventListener('click', () => fetchData('http://localhost:8080/rsis/binance', 'result-binance-rsi'));
+        fetchBinanceRsiDataBtn.addEventListener('click', () => fetchData('https://trendex.run/rsis/binance', 'result-binance-rsi'));
     }
 
     const fetchUpbitRsiDataBtn = document.getElementById('fetchUpbitRsiDataBtn');
     if (fetchUpbitRsiDataBtn) {
-        fetchUpbitRsiDataBtn.addEventListener('click', () => fetchData('http://localhost:8080/rsis/upbit', 'result-upbit-rsi'));
+        fetchUpbitRsiDataBtn.addEventListener('click', () => fetchData('https://trendex.run/rsis/upbit', 'result-upbit-rsi'));
     }
 
     const fetchUpbitMacdDataBtn = document.getElementById('fetchUpbitMacdDataBtn');
     if (fetchUpbitMacdDataBtn) {
-        fetchUpbitMacdDataBtn.addEventListener('click', () => fetchData('http://localhost:8080/macds/upbit', 'result-upbit-macd'));
+        fetchUpbitMacdDataBtn.addEventListener('click', () => fetchData('https://trendex.run/macds/upbit', 'result-upbit-macd'));
     }
 
     const fetchBinanceMacdDataBtn = document.getElementById('fetchBinanceMacdDataBtn');
     if (fetchBinanceMacdDataBtn) {
-        fetchBinanceMacdDataBtn.addEventListener('click', () => fetchData('http://localhost:8080/macds/binance', 'result-binance-macd'));
+        fetchBinanceMacdDataBtn.addEventListener('click', () => fetchData('https://trendex.run/macds/binance', 'result-binance-macd'));
     }
 });
 
